@@ -13,22 +13,18 @@ html {
   height: 100%
 }
 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .cor1 {
-  background: #D66D75; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #D66D75 , #E29587); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #D66D75 , #E29587); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #D66D75;
 }
 .cor2 {
-  background: #DA22FF; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #DA22FF , #9733EE); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #DA22FF , #9733EE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FF8A00;
 }
 .cor3 {
-  background: #67B26F; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #67B26F , #4ca2cd); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #67B26F , #4ca2cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #67B26F;
 }
 .item {
   width: 500px;
@@ -36,16 +32,28 @@ html {
   margin: 50px;
 }
 .center-center {
-  justify-content: center;
-  align-items: center
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center
 }
 .center-left {
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .center-right {
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .text-center {
   text-align: center;
