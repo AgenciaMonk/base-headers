@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0
+}
+body,
+html {
+  height: 100%;
+  color: #fff
+}
+.size {
+  height: 100%
+}
+.container {
+  display: flex;
+}
+.cor1 {
+  background: #D66D75; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #D66D75 , #E29587); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #D66D75 , #E29587); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cor2 {
+  background: #DA22FF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #DA22FF , #9733EE); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #DA22FF , #9733EE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cor3 {
+  background: #67B26F; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #67B26F , #4ca2cd); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #67B26F , #4ca2cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.item {
+  width: 500px;
+  max-width: 90%;
+  margin: 50px;
+}
+.center-center {
+  justify-content: center;
+  align-items: center
+}
+.center-left {
+  justify-content: flex-start;
+  align-items: center;
+}
+.center-right {
+  justify-content: flex-end;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
