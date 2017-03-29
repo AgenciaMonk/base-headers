@@ -20,4 +20,4 @@ ex:
 ## Classes para alinhar texto dentro do item
 - text-center
 - text-left
--text-right
+- text-right
